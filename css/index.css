@@ -86,12 +86,9 @@ h2::after {
 
 .header {
   margin-top: 140px;
-  margin-left: 40px;
-  position: relative;
-}
-
-.header-title {
+  margin-left: 5%;
   text-align: left;
+  position: relative;
 }
 
 .header-sns {
@@ -293,7 +290,8 @@ h2::after {
   }
 
   .nav-item {
-    font-size: 30px;
+    font-size: 18px;
+    margin: 6px 0;
   }
 
   .nav-item:hover {
@@ -345,7 +343,8 @@ h2::after {
   }
 
   .nav-item {
-    font-size: 30px;
+    font-size: 18px;
+    argin: 6px 0;
   }
 
   .nav-item:hover {
