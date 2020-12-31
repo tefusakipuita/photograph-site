@@ -28,10 +28,7 @@ p {
   color: #555;
 }
 
-
-
 /* sub */
-
 .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -74,10 +71,7 @@ h2::after {
   background: linear-gradient(90deg, #fff, transparent);
 }
 
-
-
 /* top-header */
-
 #top-header {
   background-image: url("../image/main/profile2.jpeg");
   background-repeat: no-repeat;
@@ -116,10 +110,7 @@ h2::after {
   margin: 0 20px;
 }
 
-
-
 /* navigation bar  */
-
 .navbar a {
   color: #fff;
 }
@@ -150,21 +141,14 @@ h2::after {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='1.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
-
-
 /* photo genre */
-
 #photo-genre img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
 }
 
-
-
 /* camera info */
-
 #camera-info {
   background: linear-gradient(-45deg, #DDBDFC, #96C8FB);
 }
@@ -182,10 +166,7 @@ h2::after {
   padding: 16px 0;
 }
 
-
-
 /* my best */
-
 .image-item {
   padding: 2px;
 }
@@ -195,17 +176,14 @@ h2::after {
   border-radius: 20%;
 }
 
-
-
 /* profile */
-
 #profile {
   background: linear-gradient(-45deg, #DDBDFC, #96C8FB);
 }
 
 #profile img {
-  width: 130px;
-  height: 130px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
 }
 
@@ -231,10 +209,7 @@ h2::after {
   text-align: left;
 }
 
-
-
 /* all-seasons */
-
 #all-seasons img {
   width: 100%;
   border-radius: 20%;
@@ -244,10 +219,7 @@ h2::after {
   padding: 0 4%;
 }
 
-
-
 /* spring */
-
 #all-seasons #spring h2 {
   color: #FE69FF;
 }
@@ -260,10 +232,7 @@ h2::after {
   background: linear-gradient(90deg, #FE69FF, transparent);
 }
 
-
-
 /* summer */
-
 #all-seasons #summer h2 {
   color: #90E805;
 }
@@ -276,10 +245,7 @@ h2::after {
   background: linear-gradient(90deg, #90E805, transparent);
 }
 
-
-
 /* autumn */
-
 #all-seasons #autumn h2 {
   color: #F87B00;
 }
@@ -292,10 +258,7 @@ h2::after {
   background: linear-gradient(90deg, #F87B00, transparent);
 }
 
-
-
 /* winter */
-
 #all-seasons #winter h2 {
   color: #63A4FF;
 }
@@ -308,10 +271,7 @@ h2::after {
   background: linear-gradient(90deg, #63A4FF, transparent);
 }
 
-
-
 /* contact */
-
 #contact {
   background: linear-gradient(-45deg, #DDBDFC, #96C8FB);
 }
@@ -320,27 +280,20 @@ h2::after {
   margin: 0 10px;
 }
 
-
-
-
 /* media query */
-
 /* ~ md */
 @media (max-width: 768px) {
   h1 {
     font-size: 24px;
+    font-weight: 400;
   }
 
   h2 {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 16px;
-  }
-
-  p {
-    font-size: 12px;
+  .nav-item {
+    font-size: 30px;
   }
 
   .nav-item:hover {
@@ -350,6 +303,7 @@ h2::after {
 
   .navbar-brand {
     font-size: 18px;
+    font-weight: 400;
   }
 
   .col-item {
@@ -376,8 +330,6 @@ h2::after {
   }
 }
 
-
-
 /* md ~ lg */
 @media (min-width: 768px) and (max-width: 992px) {
   h1 {
@@ -388,8 +340,12 @@ h2::after {
     font-size: 24px;
   }
 
-  h3 {
-    font-size: 18px;
+  .navbar-nav {
+    font-size: 30px;
+  }
+
+  .nav-item {
+    font-size: 30px;
   }
 
   .nav-item:hover {
