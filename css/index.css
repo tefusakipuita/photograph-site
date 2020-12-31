@@ -36,19 +36,18 @@ p {
 h2::before, h2::after {
   content: "";
   height: 1px;
-  /* background-color: #666; */
   display: block;
   flex-grow: 1;
 }
 
 h2::before {
   margin-right: 0.6rem;
-  background: linear-gradient(-90deg, #888, transparent);
+  background: linear-gradient(-90deg, #888, #fff);
 }
 
 h2::after {
   margin-left: 0.6rem;
-  background: linear-gradient(90deg, #888, transparent);
+  background: linear-gradient(90deg, #888, #fff);
 }
 
 .white-ver {
