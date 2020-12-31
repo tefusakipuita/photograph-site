@@ -1,0 +1,410 @@
+body {
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 10px;
+  font-weight: 200;
+  margin: 32px 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 70px 0;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 18px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+/* sub */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h2::before, h2::after {
+  content: "";
+  height: 1px;
+  /* background-color: #666; */
+  display: block;
+  flex-grow: 1;
+}
+
+h2::before {
+  margin-right: 0.6rem;
+  background: linear-gradient(-90deg, #888, transparent);
+}
+
+h2::after {
+  margin-left: 0.6rem;
+  background: linear-gradient(90deg, #888, transparent);
+}
+
+.white-ver {
+  color: #fff;
+}
+
+.white-ver p {
+  color: #f5f5f5;
+}
+
+.white-ver a {
+  color: #fff;
+}
+
+.white-ver h2::before {
+  background: linear-gradient(-90deg, #fff, transparent);
+}
+
+.white-ver h2::after {
+  background: linear-gradient(90deg, #fff, transparent);
+}
+
+
+
+/* top-header */
+
+#top-header {
+  background-image: url("../image/main/profile2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#top-header .container-fluid {
+  padding: 3% 15% 4%;
+}
+
+.header {
+  margin-top: 140px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.header-title {
+  text-align: left;
+}
+
+.header-sns {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+.sns-icon:hover {
+  color: #54beff;
+}
+
+.header a {
+  color: #fff;
+  margin: 0 20px;
+}
+
+
+
+/* navigation bar  */
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-nav {
+  text-align: left;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid;
+  border-width: thin;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='1.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+/* photo genre */
+
+#photo-genre img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+
+
+/* camera info */
+
+#camera-info {
+  background: linear-gradient(-45deg, #DDBDFC, #96C8FB);
+}
+
+#camera-info h3 {
+  padding: 3px 0;
+}
+
+#camera-info p {
+  width: 70%;
+  margin: auto;
+}
+
+.item-list {
+  padding: 16px 0;
+}
+
+
+
+/* my best */
+
+.image-item {
+  padding: 2px;
+}
+
+#my-best img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+
+
+/* profile */
+
+#profile {
+  background: linear-gradient(-45deg, #DDBDFC, #96C8FB);
+}
+
+#profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+#profile h3 {
+  padding-top: 0;
+}
+
+#profile p {
+  margin-bottom: 8px;
+  width: 70%;
+  margin-right: auto;
+}
+
+.profile-image, .profile-info {
+  padding: 0 40px;
+}
+
+.profile-image {
+  text-align: right;
+}
+
+.profile-info {
+  text-align: left;
+}
+
+
+
+/* all-seasons */
+
+#all-seasons img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+#spring, #summer, #autumn, #winter {
+  padding: 0 4%;
+}
+
+
+
+/* spring */
+
+#all-seasons #spring h2 {
+  color: #FE69FF;
+}
+
+#all-seasons #spring h2::before {
+  background: linear-gradient(-90deg, #FE69FF, transparent);
+}
+
+#all-seasons #spring h2::after {
+  background: linear-gradient(90deg, #FE69FF, transparent);
+}
+
+
+
+/* summer */
+
+#all-seasons #summer h2 {
+  color: #90E805;
+}
+
+#all-seasons #summer h2::before {
+  background: linear-gradient(-90deg, #90E805, transparent);
+}
+
+#all-seasons #summer h2::after {
+  background: linear-gradient(90deg, #90E805, transparent);
+}
+
+
+
+/* autumn */
+
+#all-seasons #autumn h2 {
+  color: #F87B00;
+}
+
+#all-seasons #autumn h2::before {
+  background: linear-gradient(-90deg, #F87B00, transparent);
+}
+
+#all-seasons #autumn h2::after {
+  background: linear-gradient(90deg, #F87B00, transparent);
+}
+
+
+
+/* winter */
+
+#all-seasons #winter h2 {
+  color: #63A4FF;
+}
+
+#all-seasons #winter h2::before {
+  background: linear-gradient(-90deg, #63A4FF, transparent);
+}
+
+#all-seasons #winter h2::after {
+  background: linear-gradient(90deg, #63A4FF, transparent);
+}
+
+
+
+/* contact */
+
+#contact {
+  background: linear-gradient(-45deg, #DDBDFC, #96C8FB);
+}
+
+#contact a {
+  margin: 0 10px;
+}
+
+
+
+
+/* media query */
+
+/* ~ md */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .nav-item {
+    font-size: 30px;
+  }
+
+  .nav-item:hover {
+    border-width: 0;
+    color: #12a5ff;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .col-item {
+    margin: 32px 0;
+  }
+
+  #photo-genre p {
+    width: 70%;
+    margin: auto;
+  }
+
+  #profile p {
+    padding-bottom: 8px;
+    width: 100%;
+    margin: auto;
+  }
+
+  #profile h3 {
+    padding-top: 18px;
+  }
+
+  .profile-image, .profile-info {
+    text-align: center;
+  }
+}
+
+
+
+/* md ~ lg */
+@media (min-width: 768px) and (max-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .navbar-nav {
+
+  }
+
+  .nav-item {
+    font-size: 30px;
+  }
+
+  .nav-item:hover {
+    border-width: 0;
+    color: #12a5ff;
+  }
+
+  .col-item {
+    margin: 32px 0;
+  }
+
+  #profile p {
+    width: 100%;
+    margin-right: auto;
+  }
+}
